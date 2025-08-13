@@ -10,7 +10,7 @@ load_dotenv()
 
 # --- CONFIG ---
 st.set_page_config(page_title="Week 1 RAG Chatbot", layout="wide")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
 
 # --- SIDEBAR ---
 st.sidebar.header("Knowledge Base")
