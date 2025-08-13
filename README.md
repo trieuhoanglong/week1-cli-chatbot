@@ -17,5 +17,5 @@ You can upload your own **PDF** and chat with it — the assistant will answer *
 
 ### 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/yourusername/week1-rag-chatbot.git
-cd week1-rag-chatbot
+git clone https://github.com/trieuhoanglong/week1-cli-chatbot.git
+cd week1-cli-chatbot
